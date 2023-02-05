@@ -10,6 +10,8 @@ The axioms underpinning a category are the following:
 1. For $f: X\to Y$, $1_Yf=f=f1_X$
 2. For $f,g,h$ morphism, $h(gf)=(hg)f$
 
+There are some issues we need to consider regarding the semantics used to describe a category. One could say that the category consists of a *set* of objects, however, as the objects themselves be sets we introduce Russell-like paradoxes. Therefore, for refer to the objects of a category as a *collection*.
+
 **Definition**
 An isomorphism in a category is a morphism $f:X\to Y$ for which there is a $g:Y\to X$ such that $gf=1_X$ and $fg=1_Y$. In this case $X$ and $Y$ are said to be isomorphic, written $X\cong Y$.
 
